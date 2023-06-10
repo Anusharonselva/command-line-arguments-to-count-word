@@ -20,7 +20,9 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 Program for getting the word count from the contents of a file using command line arguments
+
 Developed by: S.ANUSHARON
+
 RegisterNumber: 212222240010
 
 import sys
