@@ -1,4 +1,4 @@
-# command-line-arguments-to-count-word
+![Screenshot (326)](https://github.com/Anusharonselva/command-line-arguments-to-count-word/assets/119405600/9929754f-a4f8-4d69-8e38-3f6efed22dd9)# command-line-arguments-to-count-word
 ## AIM:
 To write a python program for getting the word count from the contents of a file using command line arguments.
 ## EQUIPEMENT'S REQUIRED: 
@@ -26,22 +26,23 @@ Developed by: S.ANUSHARON
 RegisterNumber: 212222240010
 
 import sys
-
-fp=open(sys.argv[1],'r')
-
-count=0
-
-for line in fp:
-
-    list1=line.split()
-    count+=len(list1)
-print("no of words in a file",count)
+fp=open(sys.argv[1],"r")
+d={}
+for i in fp:
+  for w in i.split():
+    if w not in d.keys():
+      d[w]-1
+  else:
+       d[w]+=1
+  print(d)
 
 
 
 ### OUTPUT:
-![Screenshot (270)](https://github.com/Anusharonselva/command-line-arguments-to-count-word/assets/119405600/3940a8c3-0598-432d-9d85-518190b56a2f)
 
+![Screenshot (326)](https://github.com/Anusharonselva/command-line-arguments-to-count-word/assets/119405600/207e660c-a1c6-4466-ba75-45eecbc3b295)
+
+![Screenshot (326) 1](https://github.com/Anusharonselva/command-line-arguments-to-count-word/assets/119405600/4475fb66-180e-4c8d-9127-3754577f2bb5)
 
 
 ## RESULT:
