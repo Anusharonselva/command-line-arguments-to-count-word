@@ -1,4 +1,4 @@
-![Screenshot (326)](https://github.com/Anusharonselva/command-line-arguments-to-count-word/assets/119405600/9929754f-a4f8-4d69-8e38-3f6efed22dd9)# command-line-arguments-to-count-word
+arguments-to-count-word
 ## AIM:
 To write a python program for getting the word count from the contents of a file using command line arguments.
 ## EQUIPEMENT'S REQUIRED: 
